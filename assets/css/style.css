@@ -77,5 +77,64 @@ h3{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    padding: 2px;
+}
+.footer-section{
+    & {
+        background-color: #ffffff;
+    }
+    & .footer-logo a{
+        color: #3B5D50;
+    }
+   & .custom-btn{
+      background-color: #3B5D50;
+      color: #DCE5E4;
+    }
+    & .custom-btn:hover{
+        background-color: #DCE5E4;
+        color: #3B5D50;
+      }
+
+& .sofa-img {
+    position: absolute;
+    top: -200px;
+    z-index: 1;
+    right: 0;
+}
+& .sofa-img img{
+    max-width: 380px;
+}
+& i{
+    width: 30px;
+    height: 30px;
+
+}
+.footer-icon{
+        width: 40px;
+    height: 40px;
+    background-color: #DCE5E4;
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    padding-top: 8px;
+    text-decoration: none;
+    color: #3B5D50;
+    
+}
+.footer-icon:hover{
+    color: #DCE5E4;
+    background-color: #3B5D50;
+    transition: all .4s;
+    }
+    & ul li a{
+        text-decoration: none;
+        color: #464646;
+        line-height: 40px;
+    }
+}
+
+/* responsive */
+@media screen and (max-width:768px) {
+    .p-10{
+        padding: 50px 0;
+    }
 }
