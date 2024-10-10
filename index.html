@@ -225,12 +225,12 @@
              <div class="testimonials p-10">
                 <div class="container">
                     <h1 class="text-center mb-5">Testimonials</h1>
-                    <div id="carouselExampleAutoplaying" class="carousel slide"  data-bs-ride="carousel">
-                        <!-- <div class="carousel-indicators">
-                          <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"></button>
-                          <button data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></button>
-                        </div> -->
+                    <div id="myCarousel" class="carousel slide"  data-bs-ride="carousel">
+                        <div class="carousel-indicators mb-0" data-bs-theme="dark">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active custom-carousel" aria-current="true"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="custom-carousel"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" class="custom-carousel"></button>
+                          </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active" data-bs-interval="2000">
                             <div class="row justify-content-center">
@@ -246,7 +246,7 @@
                                                 <img src="./assets/image/person-1.png" alt="Maria Jones" class="img-fluid">
                                             </div>
                                             <h3 class="font-weight-bold">Maria Jones</h3>
-                                            <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+                                            <span class="position d-block mb-5">CEO, Co-Founder, XYZ Inc.</span>
                                         </div>
                                     </div>
 
@@ -267,7 +267,7 @@
                                                 <img src="./assets/image/person-1.png" alt="Maria Jones" class="img-fluid">
                                             </div>
                                             <h3 class="font-weight-bold">Maria Jones</h3>
-                                            <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+                                            <span class="position d-block mb-5">CEO, Co-Founder, XYZ Inc.</span>
                                         </div>
                                     </div>
 
@@ -288,7 +288,7 @@
                                                 <img src="./assets/image/person-1.png" alt="Maria Jones" class="img-fluid">
                                             </div>
                                             <h3 class="font-weight-bold">Maria Jones</h3>
-                                            <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
+                                            <span class="position d-block mb-5">CEO, Co-Founder, XYZ Inc.</span>
                                         </div>
                                     </div>
 
@@ -296,10 +296,10 @@
                             </div>
                           </div>
                         </div>
-                        <button class="carousel-control-prev custom-carousel" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <button class="carousel-control-prev custom-carousel" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                           <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
                         </button>
-                        <button class="carousel-control-next custom-carousel" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <button class="carousel-control-next custom-carousel" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                             <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
                         </button>
                       </div>
@@ -314,5 +314,6 @@
 
 
     <script src="./assets/lib/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

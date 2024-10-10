@@ -23,7 +23,7 @@ h3{
 .hero{
     background-color: #3B5D50;
 }
-.fa-solid{
+.choose-section .fa-solid{
     color: #3B5D50;
 }
 .help-img{
@@ -71,4 +71,11 @@ h3{
     background-color: #3B5D50;
     border-radius: 100%;
     color: white;
+}
+.carousel-indicators .custom-carousel{
+    background-color: #3B5D50;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    padding: 2px;
 }
